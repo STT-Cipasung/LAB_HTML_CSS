@@ -1,0 +1,55 @@
+
+/* 1. Type selector */
+h2 {
+  color: navy;
+}
+
+/* 2. Class selector */
+.note {
+  background: yellow;
+}
+
+/* 3. Featured club saja */
+.club.featured {
+  border: 2px solid;
+}
+
+/* 4. Note yang berupa paragraf saja */
+p.note {
+  font-style: italic;
+}
+
+/* 5. Paragraf di dalam section */
+section p {
+  line-height: 1.6;
+}
+
+/* 6. Grouping selector */
+h1, .tagline {
+  font-family: Georgia, serif;
+}
+
+/* 7. Link di dalam nav tanpa garis bawah */
+nav a {
+  text-decoration: none;
+}
+
+/* 8. Garis bawah saat hover */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 9. Link eksternal yang membuka tab baru */
+a[target="_blank"] {
+  color: red;
+}
+
+/* 10. Item list pertama */
+li:first-child {
+  font-weight: bold;
+}
+
+/* 11. Header menggunakan ID */
+#top {
+  background: lightgray;
+}

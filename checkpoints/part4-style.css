@@ -1,0 +1,136 @@
+/* type selector */
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 16px;
+	background: #f1f5f2;
+	color: #23312e;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	line-height: 1.6;
+}
+
+header {
+	padding: 24px;
+	background: #174e4a;
+	color: #fff;
+}
+
+header h1,
+header p {
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 20px;
+	margin: 0;
+	padding: 12px 0;
+	list-style: none;
+}
+
+/* descendant selector */
+nav a {
+	color: #174e4a;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+/* pseudo-class selector */
+nav a:hover,
+nav a:focus-visible {
+	color: #a4432d;
+	text-decoration: underline;
+}
+
+main {
+	padding-top: 8px;
+}
+
+/* class selector */
+.card {
+	margin-bottom: 24px;
+	padding: 16px;
+	border: 1px solid #c5d1cc;
+	border-radius: 8px;
+	background: #fff;
+}
+
+/* id selector */
+#about h2 {
+	color: #a4432d;
+}
+
+/* grouping selector */
+h1,
+h2,
+h3 {
+	line-height: 1.25;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 8px;
+	border: 1px solid #c5d1cc;
+	text-align: left;
+}
+
+th {
+	background: #dce9e3;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+label {
+	display: block;
+}
+
+input,
+textarea {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #899c95;
+	border-radius: 4px;
+	font: inherit;
+}
+
+button {
+	padding: 8px 16px;
+	border: 0;
+	border-radius: 4px;
+	background: #174e4a;
+	color: #fff;
+	font: inherit;
+	cursor: pointer;
+}
+
+footer {
+	padding: 8px 0 24px;
+	color: #52625d;
+	font-size: 0.875rem;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	body {
+		padding: 0 12px;
+	}
+
+	header {
+		padding: 20px;
+	}
+
+	table {
+		font-size: 0.875rem;
+	}
+}
