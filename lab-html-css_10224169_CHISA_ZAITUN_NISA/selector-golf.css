@@ -1,0 +1,34 @@
+/* LAB SELECTOR GOLF - CHISA ZAITUN NISA - 10224169 - 11 Tantangan */
+
+/* 1. Element selector */
+p { color: #333; }
+
+/* 2. Class selector */
+.target { background: yellow; font-weight: bold; }
+
+/* 3. ID selector */
+#special { color: crimson; }
+
+/* 4. Class descendant */
+li.target { border-left: 4px solid green; }
+
+/* 5. Child combinator */
+header > p { font-style: italic; }
+
+/* 6. Descendant combinator */
+section p { text-decoration: underline; }
+
+/* 7. Adjacent sibling */
+h2 + p { color: blue; }
+
+/* 8. Attribute selector */
+input[type="text"] { border: 2px solid orange; }
+
+/* 9. Pseudo-class nth-child */
+li:nth-child(3) { background: lightgreen; }
+
+/* 10. Pseudo-class hover */
+a:hover { color: red; text-decoration: underline; }
+
+/* 11. Attribute selector data- */
+p[data-role="admin"] { border-left: 4px solid purple; padding-left: 8px; }
