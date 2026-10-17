@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STT Cipasung Campus</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px;
+      background-color: #f1f5f9;
+      color: #333333;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .campus-header {
+      padding: 24px;
+      border-radius: 8px;
+      background-color: #003366;
+      color: #ffffff;
+    }
+
+    .campus-header h1 {
+      margin-top: 0;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin: 16px 0 24px;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav a {
+      color: #003366;
+      font-weight: 700;
+    }
+
+    nav a:hover,
+    nav a:focus-visible {
+      color: #00509e;
+    }
+
+    main section {
+      margin-bottom: 24px;
+      padding: 20px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+
+    h1,
+    h2 {
+      line-height: 1.25;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: 700;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      margin-bottom: 16px;
+      padding: 10px;
+      border: 1px solid #64748b;
+      border-radius: 4px;
+      font: inherit;
+    }
+
+    button {
+      padding: 10px 18px;
+      border: 0;
+      border-radius: 4px;
+      background-color: #003366;
+      color: #ffffff;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    button:hover,
+    button:focus-visible {
+      background-color: #00509e;
+    }
+
+    footer {
+      color: #475569;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="campus-header">
+    <h1>STT Cipasung</h1>
+    <p>School of Technology in Tasikmalaya</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>STT Cipasung is a technology college in Tasikmalaya.</p>
+      <img src="https://placehold.co/600x300?text=STT+Cipasung" alt="Illustration representing the STT Cipasung campus">
+    </section>
+
+    <section id="programs">
+      <h2>Programs</h2>
+      <p>STT Cipasung offers undergraduate programs in:</p>
+      <ul>
+        <li>Industrial Engineering</li>
+        <li>Informatics</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form method="get">
+        <p>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </p>
+        <p>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 STT Cipasung</p>
+  </footer>
+</body>
+</html>

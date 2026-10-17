@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+/* type selector */
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  background-color: #f1f5f9;
+  color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* id selector */
+#top {
+  padding: 32px 24px;
+  border-radius: 8px;
+  background-color: #17365d;
+  color: #ffffff;
+}
+
+#top h1 {
+  margin: 0;
+}
+
+#top p {
+  margin-bottom: 0;
+}
+
+/* descendant selector */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #17365d;
+  text-decoration: none;
+}
+
+/* pseudo-class selector */
+nav a:hover,
+nav a:focus-visible {
+  background-color: #dbeafe;
+  text-decoration: underline;
+}
+
+main {
+  display: block;
+}
+
+/* class selector */
+.card {
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* grouping selector */
+h1,
+h2,
+h3 {
+  color: #17365d;
+  line-height: 1.25;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  text-align: left;
+}
+
+th {
+  background-color: #dbeafe;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figure {
+  margin: 16px 0 0;
+}
+
+figcaption {
+  margin-top: 8px;
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+address {
+  font-style: normal;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #17365d;
+  color: #ffffff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+  background-color: #24528a;
+}
+
+footer {
+  padding: 8px;
+  color: #475569;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  table {
+    font-size: 0.85rem;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+}
