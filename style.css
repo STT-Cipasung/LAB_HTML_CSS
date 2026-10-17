@@ -1,0 +1,121 @@
+/* type selector */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* id selector */
+#about {
+  scroll-margin-top: 20px;
+}
+
+/* grouping selector */
+header, footer {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 20px;
+}
+
+header {
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 24px;
+}
+
+/* descendant selector */
+nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* pseudo-class selector */
+nav a:hover {
+  text-decoration: underline;
+  color: #93c5fd;
+}
+
+/* class selector */
+section {
+  background-color: #ffffff;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+/* Styling Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th, td {
+  border: 1px solid #d1d5db;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+/* Styling Gambar */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+/* Styling Formulir */
+form p {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Styling Footer */
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  border-radius: 8px 8px 0 0;
+}
